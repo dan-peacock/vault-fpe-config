@@ -53,5 +53,12 @@ resource "vault_transform_role" "payments" {
 
 output "transform" {
   value = vault_transform_transformation.ccn-fpe.path
-  
+}
+
+output "backend" {
+  value = vault_aws_secret_backend.aws.path
+}
+
+output "role" {
+  value = vault_aws_secret_backend_role.admin.name
 }
