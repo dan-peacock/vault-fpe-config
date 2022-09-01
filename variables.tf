@@ -13,11 +13,3 @@ variable "root_access_key" {
 variable "root_secret_key" {
   
 }
-
-variable "region" {
-  
-}
-
-variable "ccn" {
-  
-}
